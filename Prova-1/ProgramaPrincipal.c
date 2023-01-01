@@ -51,6 +51,9 @@ int purfectos (int elemento){
     if (elemento == 0){
         return elemento;
     }
+    if(elemento == 1){
+        return elemento;
+    }
     int elementopositivo;
     if (elemento < 0){
         elementopositivo = elemento * -1;
@@ -83,6 +86,7 @@ int purfectos (int elemento){
             }
             
         }
+
     }
     
 
