@@ -4,7 +4,7 @@ int main(){
     //Recebe um número qualquer e imprime os algarismos separadamente, do primeiro até o último
     int numero;
 
-    scanf("%d", &numero);
+        scanf("%d", &numero);
 
     if (numero>99999)
     {
